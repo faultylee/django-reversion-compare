@@ -205,7 +205,7 @@ setup(
     packages=['reversion_compare', 'reversion_compare_tests'],
     include_package_data=True,
     install_requires=[
-        "Django>=1.8,<1.11",
+        "Django>=1.8,<2.0",
         "django-reversion>=2.0,<2.1",
     ],
     tests_require=[
@@ -221,10 +221,12 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
         "Framework :: Django",
         "Framework :: Django :: 1.8",
         "Framework :: Django :: 1.9",
         "Framework :: Django :: 1.10",
+        "Framework :: Django :: 1.11",
         "Topic :: Database :: Front-Ends",
         "Topic :: Documentation",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
